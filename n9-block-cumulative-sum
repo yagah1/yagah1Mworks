@@ -1,4 +1,7 @@
-"""
+# n9-blocks-cumulative-sum
+
+This repository generates the infinite sequence formed by concatenating blocks of the form:
+
 Sequence of blocks: n^9, n^9-1, ..., n^9-9  for n >= 0.
 
 Definition:
