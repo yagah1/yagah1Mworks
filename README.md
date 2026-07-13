@@ -24,7 +24,6 @@ def generate_terms(count: int) -> list[int]:
     """Generate the first 'count' terms of the sequence."""
     return [a(i) for i in range(count)]
 
-# ----------------------------------------------------------------------
 # Example usage
 if __name__ == "__main__":
     # Print the first 30 terms (n=0..29)
