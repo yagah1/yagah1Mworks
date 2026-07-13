@@ -31,7 +31,7 @@ S(n) = \sum_{k=1}^{n} k \cdot (k+1)^{\,n-k}
 | 19 | 1 959 625 294 309|
 | 20 | 14 418 124 498 210|
 ### Verification
-Other sequence by the author https://github.com/yagah1/yagah1Mworks/blob/8dcea0b25cc4edaf176ad06c4ea80b05398bd23f/README.md
+https://github.com/yagah1/yagah1Mworks/blob/8d8f224602520570e47855d03561592998e6be69/README.md
 
 ```python
 def row_sum(n):
