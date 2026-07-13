@@ -30,7 +30,7 @@ Equivalently: number of rooted trees of height 2 with root degree k and leaves c
 | 8     | 128   | 1458  | 3072  | 2500  | 1080  | 294   | 56   | 8    |     |     |
 | 9     | 256   | 4374  | 12288 | 12500 | 6480  | 2058  | 448  | 72   | 9   |     |
 | 10    | 512   | 13122 | 49152 | 62500 | 38880 | 14406 | 3584 | 648  | 90  | 10  |
-Other sequence by the author https://github.com/yagah1/yagah1Mworks/blob/c642ab676f65ecb533f4b26332a84808c715ed40/Fibonacci-gap-sequence.md
+The equilateral triangle format sequence can be found https://github.com/yagah1/yagah1Mworks/blob/e753768378acea4593f4005cbe0107f78dd1f8f8/ReaDme.md
 ## Python Code
 
 ```python
