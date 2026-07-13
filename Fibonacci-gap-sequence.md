@@ -1,5 +1,6 @@
 # Fibonacci Gap Sequence
-
+## Author:Batu J J Yagah
+   email: batujonas.18@gmail.com
 ## Overview
 
 For n ≥ 5, a(n) = (sum of integers strictly between consecutive Fibonacci numbers F(n) and F(n+1)) − F(n), where F(0)=0, F(1)=1.
@@ -31,6 +32,4 @@ a(n) = my(fnm1=fibonacci(n-1), fn=fibonacci(n), fnp1=fibonacci(n+1)); ((fnm1-1)*
 
 a[n_] := Module[{fnm1=Fibonacci[n-1], fn=Fibonacci[n], fnp1=Fibonacci[n+1]}, ((fnm1-1)*(fn+fnp1))/2 - fn]
 
-## Author
 
-Batu J J Yagah
