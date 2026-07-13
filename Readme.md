@@ -1,7 +1,7 @@
 # A combinatorial Multiplicative Array of a triangle(right angle format)
 
 **Author:** Batu J J Yagah
-
+email: batujonas.18@gmail.com
 This triangular array counts configurations in a **leaders-followers** model.
 
 ## Description
@@ -40,3 +40,4 @@ def T(n, k):
 for n in range(1, 13):
     row = [T(n, k) for k in range(1, n+1)]
     print(f"Row {n}: {row}")
+Other sequence by the author https://github.com/yagah1/yagah1Mworks/blob/c642ab676f65ecb533f4b26332a84808c715ed40/Fibonacci-gap-sequence.md
