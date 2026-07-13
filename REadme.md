@@ -1,7 +1,7 @@
-## Row Sums of A Multiplicative Combinatorial Array of a triangle (right angle format)
+## Row Sums of A Multiplicative Combinatorial Array of a triangle (equilateral triangle format)
 
 **Author:** Batu J. J. Yagah
-
+email:batujonas.18@gmail.com
 The row sum \( S(n) \) counts the total number of configurations for a given total size \( n \), summing over all possible numbers of leaders \( k \):
 
 \[
@@ -39,3 +39,4 @@ def row_sum(n):
 
 for n in range(1, 21):
     print(f"S({n:2d}) = {row_sum(n)}")
+Other sequence by the author https://github.com/yagah1/yagah1Mworks/blob/8dcea0b25cc4edaf176ad06c4ea80b05398bd23f/README.md
