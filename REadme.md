@@ -1,4 +1,4 @@
-## Row Sums of the researcher's triangle (right angle format)
+## Row Sums of A Multiplicative Combinatorial Array of a triangle (right angle format)
 
 **Author:** Batu J. J. Yagah
 
