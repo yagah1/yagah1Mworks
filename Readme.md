@@ -1,4 +1,3 @@
-"""
 Combinatorial Multiplicative Array (Right-Angle Triangle)
 Author: Batu J J Yagah
 
@@ -12,14 +11,14 @@ Structurally: it counts rooted trees of height 2 where the root has out‑degree
 and its leaves are colored with (k+1) colors.
 
 The array grows multiplicatively and forms a strictly lower‑triangular (right‑angled) shape.
-"""
+
 
 TRIANGLE = """
 Combinatorial Multiplicative Array (Right-Angle Triangle)
 T(n,k) = k × (k+1)^(n−k)
 
 n\k      1       2       3       4       5       6       7       8       9      10
-----------------------------------------------------------------------------------
+
  1 |     1
  2 |     2       2
  3 |     4       6       3
