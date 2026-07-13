@@ -1,7 +1,7 @@
 # n9-blocks-cumulative-sum
 
 **Author:** Batu JJ Yagah  
-**Date:** 2026-07-13
+**email: batujonas.18@gmail.com
 
 This repository generates the infinite sequence formed by concatenating blocks of the form:
 
@@ -106,3 +106,4 @@ n=3: [19683, 19682, 19681, 19680, 19679, 19678, 19677, 19676, 19675, 19674]
 License
 
 This project is open-source – feel free to use, modify, and share.
+Other sequences by the author https://github.com/yagah1/yagah1Mworks/blob/31cdae2ba71a137e26f542feb12bd8874a822721/Fibonacci-gap-sequence.md
