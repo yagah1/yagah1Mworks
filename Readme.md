@@ -13,30 +13,22 @@ and its leaves are colored with (k+1) colors.
 The array grows multiplicatively and forms a strictly lower‑triangular (right‑angled) shape.
 """
 
-def T(n, k):
-    """Return the combinatorial value for row n, column k."""
-    return k * (k + 1) ** (n - k)
+TRIANGLE = """
+Combinatorial Multiplicative Array (Right-Angle Triangle)
+T(n,k) = k × (k+1)^(n−k)
 
-
-def print_triangle(max_n=10):
-    """Print the triangle in plain text, right-angle format."""
-    print("Combinatorial Multiplicative Array (Right-Angle Triangle)")
-    print("T(n,k) = k × (k+1)^(n−k)\n")
-
-    # Print header row (column indices)
-    print("n\\k", end="")
-    for k in range(1, max_n + 1):
-        print(f"{k:>7}", end="")
-    print()
-    print("-" * (7 * max_n + 4))
-
-    # Print each row (right-angle: row n has columns 1 through n)
-    for n in range(1, max_n + 1):
-        print(f"{n:2} |", end="")
-        for k in range(1, n + 1):
-            print(f"{T(n, k):>7}", end="")
-        print()
-
+n\k      1       2       3       4       5       6       7       8       9      10
+----------------------------------------------------------------------------------
+ 1 |     1
+ 2 |     2       2
+ 3 |     4       6       3
+ 4 |     8      18      12       4
+ 5 |    16      54      48      20       5
+ 6 |    32     162     192     100      30       6
+ 7 |    64     486     768     500     180      42       7
+ 8 |   128    1458    3072    2500    1080     294      56       8
+ 9 |   256    4374   12288   12500    6480    2058     448      72       9
+10 |   512   13122   49152   62500   38880   14406    3584     648      90      10
 
 if __name__ == "__main__":
-    print_triangle(10)
+    print(TRIANGLE)
