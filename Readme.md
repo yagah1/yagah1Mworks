@@ -1,3 +1,4 @@
+"""
 Combinatorial Multiplicative Array (Right-Angle Triangle)
 Author: Batu J J Yagah
 
@@ -29,6 +30,7 @@ n\k      1       2       3       4       5       6       7       8       9      
  8 |   128    1458    3072    2500    1080     294      56       8
  9 |   256    4374   12288   12500    6480    2058     448      72       9
 10 |   512   13122   49152   62500   38880   14406    3584     648      90      10
+"""
 
 if __name__ == "__main__":
     print(TRIANGLE)
