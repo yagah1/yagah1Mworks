@@ -50,4 +50,5 @@ def prime_density_right_angle(r, x=2):
         row.append(base ** exp)
     row.append(r + 1)
     return row
-    see the row sums:https://github.com/yagah1/yagah1Mworks/blob/9ba59be4690fc2b68f3dfcb41b43f358118649e5/Row%20sum%2Cright%20angle%20format%20prime%20density%20triangle%2CReadme.md
+
+    See Related sequence on row sum https://github.com/yagah1/yagah1Mworks/blob/348da4bcb5c77979ba902453f822625026f65faf/Row%20sum%2Cright%20angle%20format%20prime%20density%20triangle%2CReadme.md
