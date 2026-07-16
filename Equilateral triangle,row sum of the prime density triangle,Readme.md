@@ -235,4 +235,4 @@ References
 License
 
 This work is shared for academic and research purposes.
-see related sequence by the author:https://github.com/yagah1/yagah1Mworks/blob/ee90b5a8adb888f6062d9f273af12d7a01bac2d5/Readme.md
+see related sequence by the author:https://github.com/yagah1/yagah1Mworks/blob/8d8f224602520570e47855d03561592998e6be69/README.md
