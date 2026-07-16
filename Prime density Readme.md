@@ -6,11 +6,12 @@ Email: batujonas.18@gmail.com
 ## Description
 Prime Density Triangle, right-angle format.
 
-Row r (r>=0):
-T(r,0)=2^(r+1) for r>=1 (T(0,0)=1)
-T(r,k)=[k(k+1)]^(r+2-k) for 1<=k<=r
-T(r,r+1)=r+1
+Row r (r>=0): 
+T(r,0)=2^(r+1) for r>=1 (T(0,0)=1) 
+T(r,k)=[k(k+1)]^(r+2-k) for 2<=k<=r 
+T(r,r+1)=r+1 
 Evaluated at x=2.
+
 
 ## Rows
 Row 0: 1
@@ -43,12 +44,10 @@ def prime_density_right_angle(r, x=2):
     if r == 0:
         return [1]
     row = [x ** (r + 1)]
-    for k in range(1, r):
+    for k in range(2, r + 1):  # <-- CORRECT: starts at 2
         base = k * (k + 1)
         exp = r + 2 - k
         row.append(base ** exp)
     row.append(r + 1)
     return row
-
-for r in range(10):
-    print(f"Row {r}: {', '.join(map(str, prime_density_right_angle(r)))}")
+    see the row sums:https://github.com/yagah1/yagah1Mworks/blob/9ba59be4690fc2b68f3dfcb41b43f358118649e5/Row%20sum%2Cright%20angle%20format%20prime%20density%20triangle%2CReadme.md
