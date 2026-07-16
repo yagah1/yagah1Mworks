@@ -25,7 +25,7 @@ def row_sum(r, x=2):
     row = prime_density_right_angle(r, x)
     return sum(row)
 
-# Generate and display the triangle
+# Generating and displaying the triangle
 print("=" * 80)
 print("Prime Density Triangle (Right-Angle Format)")
 print("Author: Batu J J Yagah (GES)")
@@ -45,4 +45,4 @@ print("=" * 80)
 sums = [row_sum(r) for r in range(12)]
 print(', '.join(map(str, sums)))
 
-Related sequence on the right angle triangle format itself https://github.com/yagah1/yagah1Mworks/blob/965d24a06d8ec879e643daae378696dac3a83f3f/Prime%20density%20Readme.md
+Related sequence https://github.com/yagah1/yagah1Mworks/blob/31cdae2ba71a137e26f542feb12bd8874a822721/Fibonacci-gap-sequence.md 
