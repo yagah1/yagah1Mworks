@@ -1,5 +1,5 @@
 # n9-blocks-cumulative-sum
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21653039.svg)](https://doi.org/10.5281/zenodo.21653039)
 **Author:** Batu JJ Yagah  
 **email: batujonas.18@gmail.com
 
