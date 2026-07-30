@@ -1,6 +1,7 @@
 # A combinatorial Multiplicative Array of a triangle(right angle format)
 
 **Author:** Batu J J Yagah
+https://doi.org/10.5281/zenodo.21711148
 email: batujonas.18@gmail.com.
 This triangular array counts configurations in a **leaders-followers** model.
 
