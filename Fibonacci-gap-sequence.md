@@ -1,5 +1,8 @@
 # Fibonacci Gap Sequence
-## Author:Batu J J Yagah
+## Author:Batu J J Yagah 
+## Citation / DOI
+
+[https://doi.org/10.5281/zenodo.21676022](https://doi.org/10.5281/zenodo.21676022)
    email: batujonas.18@gmail.com
 ## Overview
 
