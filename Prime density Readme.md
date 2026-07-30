@@ -1,6 +1,7 @@
 # Prime Density Triangle
 (based on the researcher's paper titled: Prime density triangle -A mathematical framework deriving nuclear magic numbers, shell gap and subshell structures)
 Author: Batu J J Yagah (GES)
+https://doi.org/10.5281/zenodo.21710620
 Email: batujonas.18@gmail.com
 
 ## Description
