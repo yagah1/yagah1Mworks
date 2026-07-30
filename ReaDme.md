@@ -1,6 +1,7 @@
 # A Multiplicative Combinatorial Array of a Triangle(equilateral triangle format)
 
-**Author:** Batu J. J. Yagah  
+**Author:** Batu J. J. Yagah 
+https://doi.org/10.5281/zenodo.21711202
 **Email:** batujonas.18@gmail.com | yagahlinstitute.edu@gmail.com
 
 This repository presents the **Researcher’s Triangle** defined by  
