@@ -1,6 +1,7 @@
 ## Row Sums of A Multiplicative Combinatorial Array of a triangle (equilateral triangle format)
 
 **Author:** Batu J. J. Yagah
+https://doi.org/10.5281/zenodo.21711241
 email:batujonas.18@gmail.com
 The row sum \( S(n) \) counts the total number of configurations for a given total size \( n \), summing over all possible numbers of leaders \( k \):
 
