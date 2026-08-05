@@ -3,7 +3,7 @@ Author:Batu J J Yagah (GES)
 department of science and mathematics, Diabene SHTS 
 email: batujonas.18@gmail.com
 **A digit‑sum sawtooth sequence born from a quantum computing constant.**
-
+https://doi.org/10.5281/zenodo.21809835
 ---
 
 ## The Sequence
